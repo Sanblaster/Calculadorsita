@@ -1,6 +1,6 @@
-package co.edu.javeriana.ingsoft.solid.refactor.main;
+package calculadora.src.main.java.co.edu.javeriana.ingsoft.solid.refactor.main;
 
-import co.edu.javeriana.ingsoft.solid.refactor.view.MenuCalculadora;
+import calculadora.src.main.java.co.edu.javeriana.ingsoft.solid.refactor.view.MenuCalculadora;
 
 public class App {
 

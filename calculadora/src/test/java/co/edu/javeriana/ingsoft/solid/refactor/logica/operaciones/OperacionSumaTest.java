@@ -1,8 +1,9 @@
-package co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones;
+package calculadora.src.test.java.co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones;
 
+import calculadora.src.main.java.co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones.OperacionSuma;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class OperacionSumaTest {
 

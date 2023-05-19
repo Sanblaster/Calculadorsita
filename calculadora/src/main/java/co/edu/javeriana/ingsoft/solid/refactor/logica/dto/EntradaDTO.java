@@ -1,4 +1,4 @@
-package co.edu.javeriana.ingsoft.solid.refactor.logica.dto;
+package calculadora.src.main.java.co.edu.javeriana.ingsoft.solid.refactor.logica.dto;
 
 import lombok.Data;
 

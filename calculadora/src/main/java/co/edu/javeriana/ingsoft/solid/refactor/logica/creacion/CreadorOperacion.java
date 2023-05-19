@@ -1,7 +1,7 @@
-package co.edu.javeriana.ingsoft.solid.refactor.logica.creacion;
+/*package calculadora.src.main.java.co.edu.javeriana.ingsoft.solid.refactor.logica.creacion;
 
-import co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones.*;
-import co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones.base.OperacionBinaria;
+import calculadora.src.main.java.co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones.*;
+import calculadora.src.main.java.co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones.base.OperacionBinaria;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,13 +11,13 @@ public class CreadorOperacion extends CreadorBase{
     private Map<String, OperacionBinaria> operacionBinariaMap;
 
     private void init() {
-        operacionBinariaMap.put("Suma", new OperacionSuma());
-        operacionBinariaMap.put("Resta", new OperacionResta());
-        operacionBinariaMap.put("Multiplicacion", new OperacionMultiplicacion());
-        operacionBinariaMap.put("Modulo", new OperacionModulo());
-        operacionBinariaMap.put("Potencia", new OperacionPotencia());
-        operacionBinariaMap.put("Concatenacion", new OperacionConcatenar());
-        operacionBinariaMap.put("Division", new OperacionDivision());
+        operacionBinariaMap.put("Suma", (OperacionBinaria) new OperacionSuma());
+        operacionBinariaMap.put("Resta", (OperacionBinaria) new OperacionResta());
+        operacionBinariaMap.put("Multiplicacion", (OperacionBinaria) new OperacionMultiplicacion());
+        operacionBinariaMap.put("Modulo", (OperacionBinaria) new OperacionModulo());
+        operacionBinariaMap.put("Potencia", (OperacionBinaria) new OperacionPotencia());
+        operacionBinariaMap.put("Concatenacion", (OperacionBinaria) new OperacionConcatenar());
+        operacionBinariaMap.put("Division", (OperacionBinaria) new OperacionDivision());
     }
     public CreadorOperacion() {
         operacionBinariaMap = new HashMap<>();
@@ -28,4 +28,4 @@ public class CreadorOperacion extends CreadorBase{
     public OperacionBinaria getOperacion(String operacion) {
         return operacionBinariaMap.get(operacion);
     }
-}
+}*/

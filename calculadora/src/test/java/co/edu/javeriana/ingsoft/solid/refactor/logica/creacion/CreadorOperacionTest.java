@@ -1,12 +1,14 @@
-package co.edu.javeriana.ingsoft.solid.refactor.logica.creacion;
+package calculadora.src.test.java.co.edu.javeriana.ingsoft.solid.refactor.logica.creacion;
 
-import co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones.OperacionDivision;
-import co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones.OperacionResta;
-import co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones.OperacionSuma;
-import co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones.base.OperacionBinaria;
+import calculadora.src.main.java.co.edu.javeriana.ingsoft.solid.refactor.logica.creacion.CreadorBase;
+import calculadora.src.main.java.co.edu.javeriana.ingsoft.solid.refactor.logica.creacion.CreadorDinamico;
+import calculadora.src.main.java.co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones.OperacionDivision;
+import calculadora.src.main.java.co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones.OperacionResta;
+import calculadora.src.main.java.co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones.OperacionSuma;
+import calculadora.src.main.java.co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones.base.OperacionBinaria;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertInstanceOf;
 
 /**
  * Prueba la creacion de operaciones de manera dinamica o de otra forma

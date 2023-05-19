@@ -1,11 +1,7 @@
-package co.edu.javeriana.ingsoft.solid.old;
+package calculadora.src.main.java.co.edu.javeriana.ingsoft.solid.old;
 
 import java.util.Scanner;
 
-/**
- * Hello world!
- *
- */
 public class Calculadora
 {
 

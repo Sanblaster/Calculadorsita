@@ -1,6 +1,6 @@
-package co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones;
+package calculadora.src.main.java.co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones;
 
-import co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones.base.OperacionBinaria;
+import calculadora.src.main.java.co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones.base.OperacionBinaria;
 
 public class OperacionDivision implements OperacionBinaria {
 

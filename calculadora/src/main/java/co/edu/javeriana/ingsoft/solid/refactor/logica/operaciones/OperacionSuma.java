@@ -1,6 +1,6 @@
-package co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones;
+package calculadora.src.main.java.co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones;
 
-import co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones.base.OperacionBinaria;
+import calculadora.src.main.java.co.edu.javeriana.ingsoft.solid.refactor.logica.operaciones.base.OperacionBinaria;
 
 public class OperacionSuma implements OperacionBinaria {
     private Number sumar(Number num1, Number num2) {
